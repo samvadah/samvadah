@@ -1,0 +1,17 @@
+site_name: My Text Archive
+site_url: https://yourusername.github.io/  # Change this to your actual URL
+site_author: Your Name
+
+theme:
+  name: material
+  features:
+    - navigation.instant  # Makes pages load instantly without refreshing
+    - navigation.tracking # Updates URL as you scroll
+    - search.suggest      # Auto-suggests while searching
+    - search.highlight    # Highlights search terms
+  palette:
+    scheme: slate         # Dark mode (change to 'default' for light mode)
+
+# This enables the fast search bar and creates a sitemap for Google
+plugins:
+  - search
